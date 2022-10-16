@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/07-reviews-auto-slider/static/css/main.17654e45.css",
-    "main.js": "/07-reviews-auto-slider/static/js/main.9f630615.js",
+    "main.js": "/07-reviews-auto-slider/static/js/main.087207bd.js",
     "index.html": "/07-reviews-auto-slider/index.html",
     "main.17654e45.css.map": "/07-reviews-auto-slider/static/css/main.17654e45.css.map",
-    "main.9f630615.js.map": "/07-reviews-auto-slider/static/js/main.9f630615.js.map"
+    "main.087207bd.js.map": "/07-reviews-auto-slider/static/js/main.087207bd.js.map"
   },
   "entrypoints": [
     "static/css/main.17654e45.css",
-    "static/js/main.9f630615.js"
+    "static/js/main.087207bd.js"
   ]
 }
