@@ -25,7 +25,7 @@ const ReviewsSlider = ({ data, reviewIndex, setReviewIndex }: Props) => {
     } else if (reviewIndex > lastIndex) {
       setReviewIndex(firstIndex);
     }
-  }, [reviewIndex, data]);
+  }, [reviewIndex, data, setReviewIndex]);
 
   useEffect(() => {
     const slider = setInterval(() => {

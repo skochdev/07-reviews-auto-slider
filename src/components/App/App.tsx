@@ -5,7 +5,7 @@ import ReviewsSlider from '../ReviewsSlider/ReviewsSlider';
 import data from '../../data';
 
 function App() {
-  const [reviews, setReviews] = useState(data);
+  const [reviews] = useState(data);
   const [reviewIndex, setReviewIndex] = useState(0);
 
   return (
