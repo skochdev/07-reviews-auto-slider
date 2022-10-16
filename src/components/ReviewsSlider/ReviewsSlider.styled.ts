@@ -3,7 +3,6 @@ import styled from 'styled-components/macro';
 export const DisplayBox = styled.div`
   position: relative;
   overflow: hidden;
-  padding: ${p => p.theme.space[1]}rem;
 `;
 
 export const ReviewsSlider = styled.ul`
@@ -11,7 +10,6 @@ export const ReviewsSlider = styled.ul`
   height: 100%;
   background-color: ${p => p.theme.colors.muted};
   border-radius: ${p => p.theme.radii.normal};
-  box-shadow: ${p => p.theme.shadows.boxShadow.sm};
 
   li:nth-child(1) {
     img {
