@@ -3,11 +3,15 @@ import styled from 'styled-components/macro';
 export const DisplayBox = styled.div`
   position: relative;
   overflow: hidden;
+  padding: ${p => p.theme.space[1]}rem;
 `;
 
 export const ReviewsSlider = styled.ul`
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: ${p => p.theme.colors.muted};
+  border-radius: ${p => p.theme.radii.normal};
+  box-shadow: ${p => p.theme.shadows.boxShadow.sm};
 
   li:nth-child(1) {
     img {
@@ -23,10 +27,12 @@ export const Article = styled.article`
   left: 0;
   bottom: 0;
   opacity: 0;
+  padding: ${p => p.theme.space[2]}rem;
   transition: opacity 150ms ease-in-out, transform 450ms ease-in-out;
 
   &.current {
     transform: translateX(0);
+
     opacity: 1;
   }
 
@@ -39,7 +45,7 @@ export const Article = styled.article`
 
   & h2 {
     text-transform: uppercase;
-    color: ${p => p.theme.colors.muted};
+    color: ${p => p.theme.colors.primary};
   }
 
   & h3 {
@@ -56,6 +62,7 @@ export const Thumbnail = styled.div`
   margin-bottom: ${p => p.theme.space[1]}rem;
   border-radius: 50%;
   border: 3px solid gold;
+  box-shadow: ${p => p.theme.shadows.boxShadow.lg};
 `;
 
 export const Image = styled.img`
@@ -71,7 +78,8 @@ export const Button = styled.button`
   padding: ${p => p.theme.space[1]}rem;
   background-color: transparent;
   border: none;
-  top: 30%;
+  top: 40%;
+  color: ${p => p.theme.colors.background};
 
   :hover,
   :focus {
@@ -84,9 +92,5 @@ export const Button = styled.button`
 
   &.prev {
     left: ${p => p.theme.space[1]}rem;
-  }
-
-  & > * {
-    width: 60px;
   }
 `;

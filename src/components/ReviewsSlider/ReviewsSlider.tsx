@@ -42,7 +42,7 @@ const ReviewsSlider = ({ data, reviewIndex, setReviewIndex }: Props) => {
         as={S.DisplayBox}
         m="0 auto"
         width={{ sm: 600, md: 960, lg: 1280 }}
-        height={{ xs: 200, sm: 400, lg: 500 }}>
+        height={{ xs: 300, sm: 400, lg: 500 }}>
         <Box as={S.ReviewsSlider}>
           {data.map(({ id, image, name, title, quote }, index) => {
             let position = 'next';

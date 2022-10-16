@@ -11,11 +11,11 @@ export const theme: DefaultTheme = {
     black: '#000',
     white: '#fff',
     text: '#2a2a2a',
-    background: '#fff',
+    background: '#a8a8a8',
     primary: '#07c',
     secondary: '#05a',
     accent: '#fda031',
-    muted: '#b2b2b2',
+    muted: '#f3f1f1',
   },
   fontSizes: {
     xs: '1.2rem',
@@ -34,9 +34,9 @@ export const theme: DefaultTheme = {
   shadows: {
     boxShadow: {
       none: 'none',
-      sm: 'box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;',
-      md: 'box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;',
-      lg: 'box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;',
+      sm: 'rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;',
+      md: 'rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;',
+      lg: 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;',
     },
   },
   breakpoints: {
