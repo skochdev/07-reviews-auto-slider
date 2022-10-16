@@ -34,7 +34,7 @@ const ReviewsSlider = ({ data, reviewIndex, setReviewIndex }: Props) => {
     return () => {
       clearInterval(slider);
     };
-  }, [reviewIndex]);
+  }, [reviewIndex, setReviewIndex]);
 
   return (
     <>
